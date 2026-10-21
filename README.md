@@ -89,3 +89,8 @@ PG publishes a few essays a year. To add one: read it, add a line to the right s
 
 Coverage was checked against paulgraham.com/articles.html as of October 2026 (234 entries,
 newest: *Making Startups Powerful*, September 2026).
+
+## License
+
+[MIT](LICENSE). The license covers this repo's code and its own text (the summaries, principles,
+frameworks, and skills). Paul Graham's essays are his; read them at paulgraham.com.
