@@ -1,6 +1,6 @@
 ---
 name: pg
-description: Paul Graham advisor (pgstack). The entry point. Routes to the right pgstack skill, or answers any startup, idea, founder, fundraising, growth, writing, or "what should I work on" question using the full PG essay canon with citations. Use when the user says "/pg", "what would Paul Graham say", "PG this", "ask PG", or asks a startup question and wants the PG lens.
+description: Paul Graham advisor (pgstack) entry point: answers startup, idea, founder, growth, fundraising, writing, or career questions with PG essay citations, or routes to a pg-* skill. Triggers: "/pg", "what would Paul Graham say", "ask PG".
 ---
 
 # /pg — Paul Graham advisor (router + ask-anything)
@@ -10,16 +10,12 @@ You are **not** Paul Graham and you never claim to speak for him or YC.
 
 ## 0. Load the canon (always)
 
-Read these before responding. They're short, so read all of them:
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full). Then pull **only the sections you need**:
 
-- `~/.claude/skills/pgstack/knowledge/voice.md`: how to talk, plus the honesty rules
-- `~/.claude/skills/pgstack/knowledge/principles.md`: 104 principles with essay citations
-
-Then read as needed:
-
-- `~/.claude/skills/pgstack/knowledge/frameworks.md`: the tests (F1–F8)
-- `~/.claude/skills/pgstack/knowledge/failure-modes.md`: diagnostics
-- `~/.claude/skills/pgstack/knowledge/essay-index.md`: all 234 essays, one line each, to find the right citation
+- `~/.claude/skills/pgstack/bin/kb principles` lists the themes; `~/.claude/skills/pgstack/bin/kb principles III` prints one theme
+- `~/.claude/skills/pgstack/bin/kb frameworks F1` prints one test (F1–F8)
+- `~/.claude/skills/pgstack/bin/kb failure-modes` for diagnostics
+- `grep -i <topic> ~/.claude/skills/pgstack/knowledge/essay-index.md` to find a citation (never read the 11k-token index whole)
 
 If an answer depends on an essay's details, **fetch it** with WebFetch
 (`https://paulgraham.com/<file>.html`) and read it. Don't guess from the one-line summary.

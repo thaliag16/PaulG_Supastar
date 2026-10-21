@@ -1,6 +1,6 @@
 ---
 name: pg-write
-description: pgstack writing review using Paul Graham's essays on writing (Write Simply, Write Like You Talk, How to Write Usefully, Putting Ideas into Words, Good Writing) plus his advice on pitching (How to Convince Investors, How to Present to Investors, What I've Learned from Users). Reviews a YC application, pitch, deck text, memo, landing page, cold email, or essay. Use for "review my YC application", "make this clearer", "PG edit", "is my pitch clear".
+description: pgstack writing review using PG's writing essays: makes a YC application, pitch, memo, or landing page plain, true, and strong. Triggers: "review my YC application", "make this clearer", "PG edit".
 ---
 
 # /pg-write — make it plain, true, and strong
@@ -11,7 +11,7 @@ the thinking.
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md`. Get the text: ask the user to paste it
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full). For the writing principles, run `~/.claude/skills/pgstack/bin/kb principles XI`. Get the text: ask the user to paste it
 or give a file path, and Read it. Ask who the reader is (a YC partner, an investor, a user,
 a general audience) if it isn't obvious.
 

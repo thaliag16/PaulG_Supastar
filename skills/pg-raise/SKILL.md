@@ -1,6 +1,6 @@
 ---
 name: pg-raise
-description: pgstack fundraising advisor built on How to Raise Money, How to Convince Investors, Investor Herd Dynamics, A Fundraising Survival Guide, The Equity Equation, The Hacker's Guide to Investors, Founder Control, and Don't Talk to Corp Dev. Decides whether to raise at all, sharpens the pitch to the truth, plans the process, and checks dilution. Use for "should I raise", "how do I pitch investors", "review my pitch", "valuation", "SAFE", "term sheet", "an acquirer reached out".
+description: pgstack fundraising advisor from PG's essays: whether to raise, the pitch, the process, dilution, control. Triggers: "should I raise", "pitch investors", "SAFE", "term sheet", "acquirer reached out".
 ---
 
 # /pg-raise — fundraising, the PG way
@@ -11,8 +11,8 @@ whether to raise at all, then helps do it fast and well.
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and **F5 and F6** in
-`~/.claude/skills/pgstack/knowledge/frameworks.md`. The core essay is `fr`. Fetch
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb frameworks F5 F6`. The core essay is `fr`. Fetch
 `https://paulgraham.com/fr.html` if you need its details, and `convince`, `herd`, and
 `fundraising` as needed. If a company exists in `~/.pgstack/companies/`, read its memo and log first.
 

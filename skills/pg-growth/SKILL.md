@@ -1,6 +1,6 @@
 ---
 name: pg-growth
-description: pgstack weekly growth check-in grounded in Startup = Growth, Do Things that Don't Scale, Default Alive or Default Dead, Ramen Profitable, and What I've Learned from Users. Logs the key metric, computes weekly growth and survival math, finds the one problem that matters most, and sets a one-week experiment. Use weekly after launch, or for "how do I get users", "our growth is flat", "weekly check-in", "PG growth".
+description: pgstack weekly growth check-in: logs the key metric, growth rate, default alive/dead, the #1 problem, and a one-week experiment. Triggers: "weekly check-in", "growth is flat", "how do I get users".
 ---
 
 # /pg-growth — the weekly loop
@@ -10,8 +10,8 @@ hour: measure, find the problem that matters most, and test one fix within a wee
 
 ## 0. Load and find the company
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and the **F4, F5, and F8** sections of
-`~/.claude/skills/pgstack/knowledge/frameworks.md`.
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb frameworks F4 F5 F8`.
 
 ```bash
 ls -1 ~/.pgstack/companies/ 2>/dev/null

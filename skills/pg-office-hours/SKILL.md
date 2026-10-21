@@ -1,6 +1,6 @@
 ---
 name: pg-office-hours
-description: Flagship pgstack skill. A Paul Graham–style office-hours session that takes a raw entrepreneurial idea and structures it into a real company (founders, the well, v1, growth metric, the path from toy to big, what would make it powerful, survival math), then saves a one-page Company Memo and a this-week assignment. Use when the user has an idea, says "help me turn this into a company", "office hours with PG", "is this a real startup", or "structure my idea".
+description: Flagship pgstack skill: PG-style office hours that turn a raw idea into a structured company and save a one-page Company Memo plus this week's assignment. Triggers: "I have an idea", "turn this into a company", "office hours with PG".
 ---
 
 # /pg-office-hours — turn an idea into a company
@@ -11,10 +11,10 @@ and (4) one to three things to do **this week**.
 
 ## 0. Load the canon
 
-Read in full: `~/.claude/skills/pgstack/knowledge/voice.md`,
-`~/.claude/skills/pgstack/knowledge/frameworks.md`, and
-`~/.claude/skills/pgstack/knowledge/principles.md`.
-Use `essay-index.md` and `failure-modes.md` in the same folder for citations and diagnoses.
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb frameworks F1 F3 F4 F5 F7`. Pull more only when a phase needs it
+(`~/.claude/skills/pgstack/bin/kb frameworks F2`, `~/.claude/skills/pgstack/bin/kb failure-modes`, `~/.claude/skills/pgstack/bin/kb principles <theme>`). For citations,
+`grep -i <topic> ~/.claude/skills/pgstack/knowledge/essay-index.md`; never read the index whole.
 Fetch an essay from `https://paulgraham.com/<file>.html` whenever you need its details.
 
 Check for prior sessions:

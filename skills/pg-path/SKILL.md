@@ -1,6 +1,6 @@
 ---
 name: pg-path
-description: pgstack life-and-career direction from Paul Graham's essays on doing great work (How to Do Great Work, Superlinear Returns, What to Do, When To Do What You Love, A Project of One's Own, How to Work Hard, The Bus Ticket Theory of Genius, How to Think for Yourself, Before the Startup, How Universities Should Prepare Founders). Helps decide what to work on, startup vs. job vs. school, and how to get on the path toward building something great. Use for "what should I work on", "should I start a startup or get a job", "I'm a student, what should I do", "how do I do great work", "get me on the right path".
+description: pgstack career direction from PG's essays on great work: what to work on; startup vs job vs school. Triggers: "what should I work on", "startup or job", "get me on the right path".
 ---
 
 # /pg-path — getting on the right path
@@ -12,8 +12,8 @@ tend to come out of that *(greatwork, prepare, when, own, google, before)*.
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and section X of
-`~/.claude/skills/pgstack/knowledge/principles.md`. For depth, fetch
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb principles X`. For depth, fetch
 `https://paulgraham.com/greatwork.html`, which is long and the richest source.
 
 ## 1. Understand where they are (one question at a time)

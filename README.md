@@ -94,3 +94,9 @@ newest: *Making Startups Powerful*, September 2026).
 
 [MIT](LICENSE). The license covers this repo's code and its own text (the summaries, principles,
 frameworks, and skills). Paul Graham's essays are his; read them at paulgraham.com.
+## Token cost
+
+Skills load `knowledge/core.md` (about 1,000 tokens: voice, honesty rules, the canon in brief) and then
+only the sections they need via `bin/kb <file> <section>` (e.g. `kb frameworks F1 F3`). The 11k-token
+essay index is only ever grepped. Compared with loading whole files, this cuts each skill's load by
+about half, and the `paul-graham` agent's startup load from ~5,200 to ~900 tokens.

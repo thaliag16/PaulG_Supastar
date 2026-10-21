@@ -1,6 +1,6 @@
 ---
 name: pg-founder
-description: pgstack founder assessment through Paul Graham's essays on founders (What We Look for in Founders, Anatomy of Determination, Relentlessly Resourceful, The Right Kind of Stubborn, Earnestness, Mean People Fail, Fierce Nerds, Founder Mode). Evidence-based, not personality-quiz. Also handles cofounder questions, solo-founder worries, and "am I ready to start a startup?" Use for "am I a good founder", "should I start a startup", "do I need a cofounder", "founder fit".
+description: pgstack founder assessment from PG's founder essays, evidence-based; also cofounder and solo-founder questions. Triggers: "am I a good founder", "should I start a startup", "do I need a cofounder".
 ---
 
 # /pg-founder — founder assessment
@@ -11,8 +11,8 @@ This skill gives the user an honest read on themselves, or their team, and on wh
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and the **F2** section of
-`~/.claude/skills/pgstack/knowledge/frameworks.md`. Fetch essays such as `founders`,
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb frameworks F2`. Fetch essays such as `founders`,
 `determination`, `relres`, `persistence`, `earnest`, and `foundermode` when you need detail.
 
 ## 1. Interview: evidence, not self-description

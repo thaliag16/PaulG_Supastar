@@ -1,6 +1,6 @@
 ---
 name: pg-checkup
-description: pgstack diagnostic for an existing startup that feels stuck, using The 18 Mistakes That Kill Startups, How Not to Die, The Fatal Pinch, Default Alive or Default Dead, What I've Learned from Users, and Making Startups Powerful. Finds the one or two failure modes that matter most, runs survival math, and prescribes fixes. Use for "we're stuck", "growth stalled", "what's killing us", "startup autopsy", "PG checkup".
+description: pgstack diagnostic for a stuck startup: the 18 mistakes, default alive/dead, the fatal pinch, then fixes. Triggers: "we're stuck", "growth stalled", "what's killing us".
 ---
 
 # /pg-checkup — what's actually wrong
@@ -10,8 +10,8 @@ the hall *(users)*, or because the founders give up *(die)*. This skill finds th
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and
-`~/.claude/skills/pgstack/knowledge/failure-modes.md`, plus F5 in `frameworks.md`. If a
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb failure-modes` and `~/.claude/skills/pgstack/bin/kb frameworks F5`. If a
 company exists in `~/.pgstack/companies/`, read its memo and full log first. The log's
 trend over time is often the diagnosis.
 

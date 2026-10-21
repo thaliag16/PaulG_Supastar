@@ -1,14 +1,14 @@
 ---
 name: pg-idea
-description: pgstack fast idea stress-test using Paul Graham's idea essays (How to Get Startup Ideas, Schlep Blindness, Organic Startup Ideas, Frighteningly Ambitious, the Altair test, Making Startups Powerful). Scores one idea, compares several, or helps someone with no idea find one by noticing rather than brainstorming. Use for "is this a good startup idea", "rank my ideas", "I don't have an idea", "PG idea check".
+description: pgstack idea stress-test: scores one idea on PG's tests, ranks several, or helps notice an idea. Triggers: "is this a good startup idea", "rank my ideas", "I don't have an idea".
 ---
 
 # /pg-idea — idea stress test
 
 ## 0. Load
 
-Read `~/.claude/skills/pgstack/knowledge/voice.md` and the **F1** and **F3** sections of
-`~/.claude/skills/pgstack/knowledge/frameworks.md`. For depth, fetch
+Read `~/.claude/skills/pgstack/knowledge/core.md` (short; replaces reading voice.md and principles.md in full), then run
+`~/.claude/skills/pgstack/bin/kb frameworks F1 F3`. For depth, fetch
 `https://paulgraham.com/startupideas.html` (the core essay) when you need its details.
 
 ## Mode A — One idea
